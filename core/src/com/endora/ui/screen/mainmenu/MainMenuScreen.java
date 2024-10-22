@@ -1,4 +1,4 @@
-package com.endora.screen.mainmenu;
+package com.endora.ui.screen.mainmenu;
 
 import com.badlogic.gdx.ScreenAdapter;
 

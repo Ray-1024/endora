@@ -4,7 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.endora.screen.game.GameScreen;
+import com.endora.ui.screen.game.GameScreen;
 
 public class MainGame extends Game {
 

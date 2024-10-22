@@ -1,4 +1,4 @@
-package com.endora.screen.game;
+package com.endora.ui.screen.game;
 
 import com.badlogic.gdx.ScreenAdapter;
 
