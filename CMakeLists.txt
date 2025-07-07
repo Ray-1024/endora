@@ -12,6 +12,18 @@ include_directories(src)
 file(GLOB HDRS "src/*.h" "src/*.hpp")
 file(GLOB SRCS "src/*.cpp")
 add_executable(${PROJECT_NAME} ${HDRS} ${SRCS}
+        src/engine/application/ApplicationConfiguration.hpp
+        src/engine/application/Application.hpp
+        src/engine/ecs/Entity.hpp
+        src/engine/ecs/Component.hpp
+        src/engine/ecs/System.hpp
+        src/engine/ecs/Ecs.hpp
+        src/engine/utils/codegeneration/GetterSetter.hpp
+        src/engine/utils/context/Context.hpp
+        src/engine/utils/context/ContextObject.hpp
+        src/engine/ecs/graphics/GraphicsSystem.hpp
+        src/engine/ecs/time/TimeSystem.hpp
+        src/engine/ecs/input/InputSystem.hpp
 )
 
 target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio sfml-network sfml-window sfml-system)
